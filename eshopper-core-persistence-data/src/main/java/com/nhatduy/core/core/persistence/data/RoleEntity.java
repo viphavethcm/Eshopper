@@ -1,4 +1,4 @@
-package com.core.persistence.data;
+package com.nhatduy.core.core.persistence.data;
 
 import javax.persistence.*;
 import java.util.List;
