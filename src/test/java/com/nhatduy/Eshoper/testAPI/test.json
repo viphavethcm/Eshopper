@@ -1,0 +1,18 @@
+{"listAttributeProduct":{
+  "attributes":[
+    {"ID":"1",
+      "attributeName":"Size",
+      "attributeValues":[
+        {"attributeValueID":"1","valueName":"S"},
+        {"attributeValueID":"2","valueName":"M"}]},
+    {"ID":"2","attributeName":"Color","attributeValues":[
+      {"attributeValueID":"3","valueName":"White"},
+      {"attributeValueID":"4","valueName":"Black"}]}
+  ],
+  "categories":[
+    {"ID":"4","categoryName":"Áo sơ mi nam"},
+    {"ID":"1","categoryName":"Áo thun nam"}],
+  "brands":[{"brandID":"2","brandName":"Addidas"}]
+},
+  "productName":"a",
+  "price":"123"}

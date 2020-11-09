@@ -1,0 +1,29 @@
+.component{
+    padding-top: 25px;
+    width: 100%;
+}
+
+.page {
+    display: none;
+}
+
+.zoomOut{
+    animation:  zoomOut 1s forwards;
+}
+
+@keyframes zoomOut {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+#prevBtn, #nextBtn {
+    margin-top: 1rem;
+}
