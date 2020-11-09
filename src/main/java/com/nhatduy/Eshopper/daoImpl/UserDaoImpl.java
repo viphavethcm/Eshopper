@@ -20,6 +20,7 @@ import java.util.List;
 public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
 
     public User check(String userName, String passWord) {
+        String b;
         Session session = HibernateUtils.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         User result = null;
